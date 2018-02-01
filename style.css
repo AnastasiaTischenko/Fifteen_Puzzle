@@ -1,0 +1,53 @@
+.wrap {
+    width: 500px;
+    margin: 0 auto;
+}
+.game-field {
+    width: 440px;
+    height: 440px;
+    display: none;
+    background-color: cornflowerblue;
+    margin:  0 auto;
+}
+.game__block {
+    width: 110px;
+    height: 110px;
+    float: left;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    font-size: 75px;
+    text-align: center;
+    line-height: 150%;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.controls{
+    text-align: center;
+    margin: 20px 0;
+}
+
+button{
+    background: none;
+    border: none;
+    border-bottom: 2px solid darkblue;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: darkblue;
+}
+
+button:hover{
+    border-bottom: 2px solid darkorange;
+    color: darkorange;
+}
+
+.winner{
+    text-align: center; 
+    line-height: 150%;
+    color: darkblue;
+    font-family: sans-serif;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
